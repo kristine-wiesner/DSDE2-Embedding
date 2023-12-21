@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Embedding with Tableau 🤩</title>
+  </head>
+  <body>
+    <h1>DSDE 2 With Tim Ryan in TIL London at The Orange Training Room 👨‍🎓</h1>
+    <h2>Tanya Fred Mary Nhung Kristine</h2>
+    <script
+      type="text/javascript"
+      src="https:public.tableau.com/javascripts/api/tableau-2.min.js"
+    ></script>
+
+    <!-- Button -->
+    <button id="exportPdf">Export to PDF</button>
+    <button id="exportPpt">Export to PPT</button>
+
+    <h2>filters</h2>
+    <input type="number" placeholder="minValue" id="minValue" />
+    <input type="number" placeholder="maxValue" id="maxValue" />
+    <button id="FilterButton">Filter!</button>
+
+    <!-- this is our empty container -->
+    <script src="app.js"></script>
+    <div id="vizContainer"></div>
+  </body>
+</html>
